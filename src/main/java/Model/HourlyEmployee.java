@@ -14,6 +14,22 @@ public class HourlyEmployee extends Employee {
         this.hourlyCost = hourlyCost;
     }
 
+    public int getHoursWorked() {
+        return hoursWorked;
+    }
+
+    public int getHourlyCost() {
+        return hourlyCost;
+    }
+
+    public void setHoursWorked(int hoursWorked) {
+        this.hoursWorked = hoursWorked;
+    }
+
+    public void setHourlyCost(int hourlyCost) {
+        this.hourlyCost = hourlyCost;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

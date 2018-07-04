@@ -11,6 +11,14 @@ public class ContractEmployee extends Employee {
         this.contractCost = contractCost;
     }
 
+    public int getContractCost() {
+        return contractCost;
+    }
+
+    public void setContractCost(int contractCost) {
+        this.contractCost = contractCost;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

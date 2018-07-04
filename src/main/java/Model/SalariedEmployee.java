@@ -12,6 +12,14 @@ public class SalariedEmployee extends Employee {
         this.monathlySalary = monathlySalary;
     }
 
+    public double getMonathlySalary() {
+        return monathlySalary;
+    }
+
+    public void setMonathlySalary(double monathlySalary) {
+        this.monathlySalary = monathlySalary;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
