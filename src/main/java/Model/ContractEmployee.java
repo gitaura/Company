@@ -31,8 +31,8 @@ public class ContractEmployee extends Employee {
     public String toString() {
         return "ContractEmployee{" +
                 "contractCost=" + contractCost +
-                ", name='" + name + '\'' +
-                ", surname='" + surname + '\'' +
+                ", name='" + getName() + '\'' +
+                ", surname='" + getSurname() + '\'' +
                 '}';
     }
 }

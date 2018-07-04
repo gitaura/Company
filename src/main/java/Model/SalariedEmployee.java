@@ -32,8 +32,8 @@ public class SalariedEmployee extends Employee {
     public String toString() {
         return "SalariedEmployee{" +
                 "monathlySalary=" + monathlySalary +
-                ", name='" + name + '\'' +
-                ", surname='" + surname + '\'' +
+                ", name='" + getName() + '\'' +
+                ", surname='" + getSurname() + '\'' +
                 '}';
     }
 }

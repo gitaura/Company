@@ -44,8 +44,8 @@ public class HourlyEmployee extends Employee {
         return "HourlyEmployee{" +
                 "hoursWorked=" + hoursWorked +
                 ", hourlyCost=" + hourlyCost +
-                ", name='" + name + '\'' +
-                ", surname='" + surname + '\'' +
+                ", name='" + getName() + '\'' +
+                ", surname='" + getSurname() + '\'' +
                 '}';
     }
 }

@@ -3,13 +3,14 @@ package Model;
 import java.util.UUID;
 
 public abstract class Employee {
-    String name;
-    String surname;
+    private String name;
+    private String surname;
+    private UUID id;
 
     public Employee(String name, String surname) {
         this.name = name;
         this.surname = surname;
-
+        id = UUID.randomUUID();
     }
 
     public String getName() {
@@ -38,4 +39,11 @@ public abstract class Employee {
         return;
     }
 
+    public UUID getId() {
+        return id;
+    }
+
+    public void setId(UUID id) {
+        this.id = id;
+    }
 }
