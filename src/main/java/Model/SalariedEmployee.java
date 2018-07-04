@@ -1,8 +1,5 @@
 package Model;
 
-import java.util.Objects;
-import java.util.UUID;
-
 public class SalariedEmployee extends Employee {
 
     double monathlySalary;
@@ -36,4 +33,36 @@ public class SalariedEmployee extends Employee {
                 ", surname='" + getSurname() + '\'' +
                 '}';
     }
+
+    @Override
+    public double calculatePaycheck() {
+        return monathlySalary * 0.77;
+    }
+
+    static class SalariedEmployeeBuilder {
+        private String name;
+        private String surname;
+        private double monathlySalary;
+
+        public SalariedEmployeeBuilder setName(String name) {
+            this.name = name;
+            return this;
+        }
+
+        public SalariedEmployeeBuilder setSurname(String surname) {
+            this.surname = surname;
+            return this;
+        }
+
+        public SalariedEmployeeBuilder setMonathlySalary(double monathlySalary) {
+            this.monathlySalary = monathlySalary;
+            return this;
+        }
+
+        public SalariedEmployee build (){
+            return new SalariedEmployee(name, surname,monathlySalary);
+        }
+
+    }
 }
+

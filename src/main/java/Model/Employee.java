@@ -30,7 +30,6 @@ public abstract class Employee {
         this.surname = surname;
     }
 
-
     public double calculatePaycheck() {
         return 0;
     }

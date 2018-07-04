@@ -1,17 +1,14 @@
 package Model;
 
-import java.util.Objects;
-import java.util.UUID;
-
 public class ContractEmployee extends Employee {
-    int contractCost;
+    double contractCost;
 
-    public ContractEmployee(String name, String surname, int contractCost) {
+    public ContractEmployee(String name, String surname, double contractCost) {
         super(name, surname);
         this.contractCost = contractCost;
     }
 
-    public int getContractCost() {
+    public double getContractCost() {
         return contractCost;
     }
 
@@ -34,5 +31,35 @@ public class ContractEmployee extends Employee {
                 ", name='" + getName() + '\'' +
                 ", surname='" + getSurname() + '\'' +
                 '}';
+    }
+
+    @Override
+    public double calculatePaycheck() {
+        return contractCost*0.85;
+    }
+
+    static class CompanyEmployeeBuilder {
+        private String name;
+        private String surname;
+        private double contractCost;
+
+        public CompanyEmployeeBuilder setName(String name) {
+            this.name = name;
+            return this;
+        }
+
+        public CompanyEmployeeBuilder setSurname(String surname) {
+            this.surname = surname;
+            return this;
+        }
+
+        public CompanyEmployeeBuilder setContractCost(double contractCost) {
+            this.contractCost = contractCost;
+            return this;
+        }
+
+        public ContractEmployee build (){
+            return new ContractEmployee(name, surname,contractCost);
+        }
     }
 }

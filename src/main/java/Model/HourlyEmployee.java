@@ -1,24 +1,21 @@
 package Model;
 
-import java.util.Objects;
-import java.util.UUID;
-
 public class HourlyEmployee extends Employee {
-    int hoursWorked;
-    int hourlyCost;
+    double hoursWorked;
+    double hourlyCost;
 
 
-    public HourlyEmployee(String name, String surname, int hoursWorked, int hourlyCost) {
+    public HourlyEmployee(String name, String surname, double hoursWorked, double hourlyCost) {
         super(name, surname);
         this.hoursWorked = hoursWorked;
         this.hourlyCost = hourlyCost;
     }
 
-    public int getHoursWorked() {
+    public double getHoursWorked() {
         return hoursWorked;
     }
 
-    public int getHourlyCost() {
+    public double getHourlyCost() {
         return hourlyCost;
     }
 
@@ -47,5 +44,42 @@ public class HourlyEmployee extends Employee {
                 ", name='" + getName() + '\'' +
                 ", surname='" + getSurname() + '\'' +
                 '}';
+    }
+
+    @Override
+    public double calculatePaycheck() {
+        return hourlyCost * hoursWorked;
+    }
+
+    static class HourlyEmployeeBuilder {
+        private String name;
+        private String surname;
+        private double hoursWorked;
+        private double hourlyCost;
+
+        public HourlyEmployeeBuilder setName(String name) {
+            this.name = name;
+            return this;
+        }
+
+        public HourlyEmployeeBuilder setSurname(String surname) {
+            this.surname = surname;
+            return this;
+        }
+
+        public HourlyEmployeeBuilder setHoursWorked(double hoursWorked) {
+            this.hoursWorked = hoursWorked;
+            return this;
+        }
+
+        public HourlyEmployeeBuilder setHourlyCost(double hourlyCost) {
+            this.hourlyCost = hourlyCost;
+            return this;
+        }
+
+        public HourlyEmployee build (){
+            return new HourlyEmployee(name, surname,hoursWorked,hoursWorked);
+        }
+
     }
 }
