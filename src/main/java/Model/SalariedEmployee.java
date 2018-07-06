@@ -39,7 +39,7 @@ public class SalariedEmployee extends Employee {
         return monathlySalary * 0.77;
     }
 
-    static class SalariedEmployeeBuilder {
+    public static class SalariedEmployeeBuilder {
         private String name;
         private String surname;
         private double monathlySalary;
@@ -59,10 +59,12 @@ public class SalariedEmployee extends Employee {
             return this;
         }
 
+
         public SalariedEmployee build (){
             return new SalariedEmployee(name, surname,monathlySalary);
         }
-
     }
+
+
 }
 
