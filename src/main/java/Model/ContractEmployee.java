@@ -38,22 +38,22 @@ public class ContractEmployee extends Employee {
         return contractCost*0.85;
     }
 
-    static class CompanyEmployeeBuilder {
+    public static class ContractEmployeeBuilder {
         private String name;
         private String surname;
         private double contractCost;
 
-        public CompanyEmployeeBuilder setName(String name) {
+        public ContractEmployeeBuilder setName(String name) {
             this.name = name;
             return this;
         }
 
-        public CompanyEmployeeBuilder setSurname(String surname) {
+        public ContractEmployeeBuilder setSurname(String surname) {
             this.surname = surname;
             return this;
         }
 
-        public CompanyEmployeeBuilder setContractCost(double contractCost) {
+        public ContractEmployeeBuilder setContractCost(double contractCost) {
             this.contractCost = contractCost;
             return this;
         }

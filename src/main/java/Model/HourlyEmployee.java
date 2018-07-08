@@ -51,7 +51,7 @@ public class HourlyEmployee extends Employee {
         return hourlyCost * hoursWorked;
     }
 
-    static class HourlyEmployeeBuilder {
+    public static class HourlyEmployeeBuilder {
         private String name;
         private String surname;
         private double hoursWorked;

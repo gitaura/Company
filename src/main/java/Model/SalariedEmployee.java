@@ -2,7 +2,7 @@ package Model;
 
 public class SalariedEmployee extends Employee {
 
-    double monathlySalary;
+    private double monathlySalary;
 
     public SalariedEmployee(String name, String surname, double monathlySalary) {
         super(name, surname);

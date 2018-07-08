@@ -1,11 +1,11 @@
 package strategy;
 
+import Model.ContractEmployee;
 import Model.Employee;
-import Model.SalariedEmployee;
 
 import java.util.Scanner;
 
-public class SalariedEmployeeStrategy implements Strategy {
+public class ContractEmployeeStrategy implements Strategy {
 
     public Employee buildEmployee() {
         Scanner scanner = new Scanner(System.in);
@@ -13,13 +13,13 @@ public class SalariedEmployeeStrategy implements Strategy {
         String name = scanner.nextLine();
         System.out.println("Podaj nazwisko: ");
         String surname = scanner.nextLine();
-        System.out.println("Podaj pensję: ");
-        double salary = scanner.nextDouble();
+        System.out.println("Podaj wartość kontraktu: ");
+        double contractCost = scanner.nextDouble();
 
-        return new SalariedEmployee.SalariedEmployeeBuilder()
+        return new ContractEmployee.ContractEmployeeBuilder()
                 .setName(name)
                 .setSurname(surname)
-                .setMonathlySalary(salary)
+                .setContractCost(contractCost)
                 .build();
     }
 }
