@@ -35,8 +35,7 @@ public class Company {
         String json = gson.toJson(employeeList);
         System.out.println(employeeList);
 
-        File file = new File("Raport_płatności");
-
+        File file = new File("Raport_salary.txt");
     }
 
     private static class CompanySingleton {

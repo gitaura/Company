@@ -9,7 +9,7 @@ public class MainMenu {
         final int ADD_NEW_EMPLOYEE_OPTION = 1;
         final int REMOVE_EMPLOYEE_OPTION = 2;
         final int PRINT_EMPLOYEES_OPTION = 3;
-        final int RAPORT_OPTION = 4;
+        final int REPORT_OPTION = 4;
         final int EXIT_MENU_OPTION = 0;
 
         int choice;
@@ -18,12 +18,11 @@ public class MainMenu {
 
         while (!exit) {
 
-            System.out.println("Ad new employee: 1");
+            System.out.println("Add new employee: 1");
             System.out.println("Remove employee: 2");
-            System.out.println("Print employes: 3");
-            System.out.println("Create raport: 4");
-
-
+            System.out.println("Print employees: 3");
+            System.out.println("Create report: 4");
+            System.out.println("Exit menu: 5");
 
             choice = scanner.nextInt();
 
@@ -39,13 +38,12 @@ public class MainMenu {
                         System.out.println(Company.getInstance().getEmployeeList());
                     }
                     break;
-                case RAPORT_OPTION:
+                case REPORT_OPTION:
                     Company.getInstance().printRaport();
                     break;
                 case EXIT_MENU_OPTION:
                     exit = true;
                     break;
-
             }
         }
     }

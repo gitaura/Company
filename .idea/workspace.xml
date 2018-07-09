@@ -2,33 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17f7c962-67f9-4dbd-a81b-f5aed2d3870a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/CompanyApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Company.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/CompanyApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/StrategyManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/ContractEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/ContractEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/HourlyEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/HourlyEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Meneger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/SalariedEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/SalariedEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/ContractEmployeeStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/ContractEmployeeStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/HourlyEmployeeStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/HourlyEmployeeStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/SalariedEmployeeStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/SalariedEmployeeStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/Strategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EmployeeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/Company$CompanySingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Company$CompanySingleton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/Company.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Company.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/CompanyApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/CompanyApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/ContractEmployee$CompanyEmployeeBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/ContractEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/ContractEmployee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/HourlyEmployee$HourlyEmployeeBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/HourlyEmployee$HourlyEmployeeBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/HourlyEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/HourlyEmployee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/Meneger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/SalariedEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/SalariedEmployee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/EmployeeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/EmployeeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/ContractEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/ContractEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/MainMenu.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,8 +20,8 @@
       <file leaf-file-name="Company.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/app/Company.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+            <state relative-caret-position="289">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#191#192#0" expanded="true" />
@@ -54,6 +30,21 @@
                 <element signature="e#234#235#0" expanded="true" />
                 <element signature="e#399#400#0" expanded="true" />
                 <element signature="e#441#442#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContractEmployee.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/ContractEmployee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+              <folding>
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#1666#1667#0" expanded="true" />
+                <element signature="e#1746#1747#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,7 +84,7 @@
       <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
+            <state relative-caret-position="391">
               <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
@@ -102,8 +93,8 @@
       <file leaf-file-name="MainMenu.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/MainMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="42" column="52" lean-forward="true" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+            <state relative-caret-position="102">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -177,8 +168,9 @@
         <option value="$PROJECT_DIR$/src/main/java/CompanyApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/ManagerStrategy.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/StrategyManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/MainMenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/CompanyApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/ContractEmployee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/MainMenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/Company.java" />
       </list>
     </option>
@@ -386,7 +378,7 @@
       <workItem from="1530804690544" duration="1341000" />
       <workItem from="1530891198914" duration="10968000" />
       <workItem from="1531062488661" duration="7754000" />
-      <workItem from="1531150352694" duration="10353000" />
+      <workItem from="1531150352694" duration="11878000" />
     </task>
     <task id="LOCAL-00001" summary="add setter, setter">
       <created>1530722495237</created>
@@ -450,7 +442,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42023000" />
+    <option name="totallyTimeSpent" value="43548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -703,17 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/ContractEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
-          <folding>
-            <element signature="e#1653#1654#0" expanded="true" />
-            <element signature="e#1732#1733#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/strategy/HourlyEmployee.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/strategy/SalariedEmployeeStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -783,13 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/HourlyEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -798,6 +772,46 @@
             <element signature="e#1320#1321#0" expanded="true" />
             <element signature="e#1367#1368#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/CompanyApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/ContractEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding>
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#1666#1667#0" expanded="true" />
+            <element signature="e#1746#1747#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
@@ -828,30 +842,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/CompanyApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/MainMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="42" column="52" lean-forward="true" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/Company.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        <state relative-caret-position="289">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#191#192#0" expanded="true" />

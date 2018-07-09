@@ -35,7 +35,7 @@ public class ContractEmployee extends Employee {
 
     @Override
     public double calculatePaycheck() {
-        return contractCost*0.85;
+        return contractCost * 0.85;
     }
 
     public static class ContractEmployeeBuilder {
@@ -58,8 +58,8 @@ public class ContractEmployee extends Employee {
             return this;
         }
 
-        public ContractEmployee build (){
-            return new ContractEmployee(name, surname,contractCost);
+        public ContractEmployee build() {
+            return new ContractEmployee(name, surname, contractCost);
         }
     }
 }

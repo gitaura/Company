@@ -60,11 +60,9 @@ public class SalariedEmployee extends Employee {
         }
 
 
-        public SalariedEmployee build (){
-            return new SalariedEmployee(name, surname,monathlySalary);
+        public SalariedEmployee build() {
+            return new SalariedEmployee(name, surname, monathlySalary);
         }
     }
-
-
 }
 
