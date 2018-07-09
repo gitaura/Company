@@ -1,4 +1,4 @@
-package Model;
+package model;
 
 public class HourlyEmployee extends Employee {
     double hoursWorked;
@@ -78,8 +78,7 @@ public class HourlyEmployee extends Employee {
         }
 
         public HourlyEmployee build (){
-            return new HourlyEmployee(name, surname,hoursWorked,hoursWorked);
+            return new HourlyEmployee(name, surname,hoursWorked,hourlyCost);
         }
-
     }
 }

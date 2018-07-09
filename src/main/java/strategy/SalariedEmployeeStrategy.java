@@ -1,7 +1,7 @@
 package strategy;
 
-import Model.Employee;
-import Model.SalariedEmployee;
+import model.Employee;
+import model.SalariedEmployee;
 
 import java.util.Scanner;
 

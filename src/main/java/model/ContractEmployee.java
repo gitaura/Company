@@ -1,4 +1,4 @@
-package Model;
+package model;
 
 public class ContractEmployee extends Employee {
     double contractCost;

@@ -1,5 +1,4 @@
-import Model.Employee;
-import Model.SalariedEmployee;
+import model.SalariedEmployee;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -7,7 +6,7 @@ public class EmployeeTest {
 
     @Test
 
-    public void schould_return_ (){
+    public void schould_return_calculatePaycheck (){
 
         SalariedEmployee employee = new SalariedEmployee("Jan", "Kowalski", 5000);
         double expected = employee.calculatePaycheck();

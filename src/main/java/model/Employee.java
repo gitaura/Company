@@ -1,4 +1,4 @@
-package Model;
+package model;
 
 import java.util.UUID;
 
@@ -30,9 +30,7 @@ public abstract class Employee {
         this.surname = surname;
     }
 
-    public double calculatePaycheck() {
-        return 0;
-    }
+    public abstract double calculatePaycheck();
 
     public void editData() {
         return;

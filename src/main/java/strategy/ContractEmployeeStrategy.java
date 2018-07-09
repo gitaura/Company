@@ -1,7 +1,7 @@
 package strategy;
 
-import Model.ContractEmployee;
-import Model.Employee;
+import model.ContractEmployee;
+import model.Employee;
 
 import java.util.Scanner;
 

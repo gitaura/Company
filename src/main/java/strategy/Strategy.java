@@ -1,6 +1,6 @@
 package strategy;
 
-import Model.Employee;
+import model.Employee;
 
 public interface Strategy {
      Employee buildEmployee();

@@ -1,4 +1,4 @@
-package Model;
+package model;
 
 public class SalariedEmployee extends Employee {
 
@@ -28,7 +28,7 @@ public class SalariedEmployee extends Employee {
     @Override
     public String toString() {
         return "SalariedEmployee{" +
-                "monathlySalary=" + monathlySalary +
+                "monathlySalary=" + calculatePaycheck() +
                 ", name='" + getName() + '\'' +
                 ", surname='" + getSurname() + '\'' +
                 '}';
